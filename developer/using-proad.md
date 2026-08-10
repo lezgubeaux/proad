@@ -24,8 +24,11 @@ If a required detail is not deterministic, the AIA should ask the smallest diffe
 
 - `proad/` is the bounded PROAD workspace inside a project or standalone PROAD release.
 - `proad-template/` is the install source and models the inside of an installed `proad/` folder.
-- Installing PROAD into a project means copying the contents of `proad-template/` into that project's `proad/` folder.
+- Installing PROAD into a client project means copying the contents of `proad-template/` into that project's `proad/` folder.
+- PROAD may also be installed into an intentional sub-project, such as a plugin, by placing it in that sub-project's own `proad/` folder.
+- Installing or updating the standalone PROAD project means copying the contents of `proad-template/` into the standalone project root.
 - The standalone PROAD project is a separate published/versioned product and is not the same thing as the live VerQuin development workspace.
+- Each installed `proad/` workspace should remain scoped to the project or sub-project where it is installed.
 
 ## Current Temporary State
 
@@ -64,7 +67,8 @@ Example requests:
 
 Installed result:
 
-- template contents are copied into the target project's `proad/` folder
+- client project: template contents are copied into the target project's `proad/` folder
+- standalone PROAD project: template contents are copied into the standalone project root
 - the template is not installed as `proad-template/`
 - the template does not need its own nested `proad/` folder
 

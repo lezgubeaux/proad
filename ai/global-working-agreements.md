@@ -4,7 +4,7 @@ type: agreements
 status: active
 scope: proad-template-ai
 applies_to: aia
-updated: 2026-08-02
+updated: 2026-08-07
 ---
 
 # Global Working Agreements
@@ -16,6 +16,7 @@ Store repository-wide starter agreements and limitations that apply to the AIA i
 ## Agreements
 
 - AIA agreement documents belong under `ai/`.
+- Each installed `proad/` workspace must stay scoped to the project or sub-project where it is installed and must not silently absorb sibling or parent project concerns.
 - File naming should follow [`file-naming-standard.md`](./file-naming-standard.md).
 - Release/version behavior should follow [`proad-release-agreements.md`](./proad-release-agreements.md).
 - Metadata headers are operational, not decorative. They exist to support later querying, filtering, indexing, and retrieval.

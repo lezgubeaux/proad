@@ -3,7 +3,7 @@ id: proad-changelog
 type: changelog
 status: active
 scope: repository-root
-updated: 2026-08-07
+updated: 2026-08-10
 ---
 
 # Changelog
@@ -17,13 +17,25 @@ This file is reserved for published PROAD version history.
 - Add entries here when this template state is released as a standalone PROAD version.
 - Do not use this file to log ordinary live development or individual template-maintenance steps.
 
-## v1.1
+## v1.1.2
 
 Current version line.
 
 - Status: active
 - Development host: `VerQuin`
-- Notes: this template is the approved reusable source for the current `v1.1` line.
+- Notes: this template is the approved reusable source for the current `v1.1.2` line.
+- formalized PROAD release/install structure and version tracking
+- added human-facing usage guidance and root-level product docs
+- clarified template promotion, standalone installation, and client/sub-project installation boundaries
+- added scope safeguards for independently installed PROAD workspaces
+
+## v1.1
+
+Previous version line.
+
+- Status: previous
+- Development host: `VerQuin`
+- Notes: this template was the approved reusable source for the `v1.1` line.
 
 ## v1.0
 
