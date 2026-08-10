@@ -17,5 +17,5 @@ It is for requests and workflows that operate on PROAD itself rather than on a l
 ## Entry Points
 
 - [`using-proad.md`](./using-proad.md) explains how to request common PROAD-level actions in plain language.
-- [`../README.md`](../README.md) provides the root-level overview for the installed PROAD workspace.
+- [`../README.md`](../README.md) provides the root-level overview for the current PROAD workspace.
 - [`../CHANGELOG.md`](../CHANGELOG.md) is reserved for published standalone PROAD version history.

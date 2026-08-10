@@ -1,8 +1,8 @@
 ---
-id: proad-template-roadmap-agreements
+id: roadmap-agreements
 type: agreements
 status: active
-scope: proad-template-ai
+scope: repository-wide
 applies_to: aia
 updated: 2026-08-03
 ---
@@ -11,7 +11,7 @@ updated: 2026-08-03
 
 ## Purpose
 
-Define the system-level agreements for how roadmaps are used and maintained in a PROAD project created from this template.
+Define the system-level agreements for how roadmaps are used and maintained in PROAD.
 
 ## Agreements
 
@@ -25,3 +25,9 @@ Define the system-level agreements for how roadmaps are used and maintained in a
 - Supporting records do not automatically become roadmap sub-steps.
 - Uncertainty about roadmap position, meaning, or status must be resolved through questions.
 - Structural changes to the roadmap require care and should not be made casually.
+
+## Local Usage Contract
+
+The local roadmap usage contract belongs in [`../project/roadmap.md`](../project/roadmap.md).
+
+This file should define the broader agreement and should not duplicate the roadmap header in full.

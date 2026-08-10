@@ -4,7 +4,7 @@ type: agreements
 status: active
 scope: repository-wide
 applies_to: aia
-updated: 2026-08-06
+updated: 2026-08-10
 ---
 
 # PROAD Release Agreements
@@ -37,6 +37,8 @@ Define how an approved `proad-template/` state becomes a released PROAD version 
 - New standalone PROAD projects should be installed from `proad-template/`.
 - Updates to the standalone PROAD project should also be sourced from the approved `proad-template/` release state unless the human explicitly requests a different release workflow.
 - The AIA must not assemble standalone releases by mixing arbitrary files from live `proad/` with template content.
+- When updating an existing installed PROAD workspace in a live project, the AIA should copy and overwrite files from `proad-template/` into the target `proad/` workspace except for `project/`.
+- The target workspace's existing `project/` folder should be preserved unless the human explicitly requests a project-folder reset or scaffold replacement.
 
 ## Documentation Scope
 
