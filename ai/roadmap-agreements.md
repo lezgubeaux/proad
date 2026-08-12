@@ -11,7 +11,7 @@ updated: 2026-08-03
 
 ## Purpose
 
-Define the system-level agreements for how roadmaps are used and maintained in PROAD.
+Define the system-level agreements for how roadmaps are used and maintained in a PROAD .
 
 ## Agreements
 

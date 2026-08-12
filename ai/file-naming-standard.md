@@ -1,8 +1,8 @@
 ---
-id: file-naming-standard
+id: proad-template-file-naming-standard
 type: standard
 status: active
-scope: repository-wide
+scope: proad-template-ai
 applies_to: aia
 updated: 2026-08-02
 ---

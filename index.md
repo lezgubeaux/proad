@@ -1,12 +1,12 @@
 ---
-id: proad-index
+id: proad-template-index
 type: index
 status: active
-scope: repository-root
+scope: proad-template
 updated: 2026-08-02
 ---
 
-# PROAD
+# PROAD Template
 
 ## Purpose
 

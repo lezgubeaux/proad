@@ -3,7 +3,7 @@ id: proad-readme
 type: readme
 status: active
 scope: repository-root
-updated: 2026-08-10
+updated: 2026-08-11
 ---
 
 # PROAD
@@ -23,27 +23,22 @@ Install shape:
 -   standalone PROAD project: template contents are installed directly into the standalone project root
 -   client project using PROAD: template contents are installed into the client project's `proad/` subfolder
 
-## Current Development State
+## Session Start
 
-The current PROAD system is being actively developed inside the VerQuin repository.
+To start a PROAD session, point the AIA to [`ai/session-bootstrap.md`](./ai/session-bootstrap.md).
 
-At this stage:
-
--   `D:\_www\verquin.net\_www-2026\proad\` is the live development and proving workspace
--   `D:\_www\verquin.net\_www-2026\proad\proad-template\` is the approved reusable template source
--   `D:\_www\proad\` is the intended standalone PROAD project for published versions
-
-This is an explicit temporary operating state until PROAD development is no longer centered inside VerQuin.
+The session bootstrap file is the required entry point for loading PROAD working context.
 
 ## Current Version
 
-The current PROAD version line is `v1.1.2`.
+The current PROAD version line is `v1.2.1`.
 
-`v1.1.2` is the closing VerQuin-hosted working version.
+`v1.2.1` is the current Leunovo-hosted development line.
 
 ## Development Host History
 
 -   `VerQuin` hosted PROAD development for `v1.0` through `v1.1.2`.
+-   `Leunovo` hosts PROAD development from `v1.2` onward.
 
 This host history exists to make the current development source explicit and to avoid assuming that some other project is the active PROAD development container.
 
@@ -52,10 +47,9 @@ This host history exists to make the current development source explicit and to 
 -   [`index.md`](./index.md) explains the PROAD workspace structure and major entry points.
 -   [`developer/`](./developer/index.md) contains human-facing guidance for working with PROAD itself.
 -   [`ai/`](./ai/index.md) contains AI-side operating agreements and rules.
-
--   [`docs/`](./docs/index.md) contains the AI-managed knowledge repository for that project.
 -   [`project/`](./project/index.md) contains the human-facing workspace for the project being operated through PROAD.
--   [`proad-template/`](./proad-template/index.md) contains the reusable template that is installed into project `proad/` folders.
+-   [`docs/`](./docs/index.md) contains the AI-managed knowledge repository for that project.
+-   [`proad-template/`](./proad-template/index.md) contains the reusable template maintained from the active PROAD development host.
 
 ## Scope Rule
 

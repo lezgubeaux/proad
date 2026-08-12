@@ -3,7 +3,7 @@ id: using-proad
 type: guide
 status: active
 scope: developer
-updated: 2026-08-07
+updated: 2026-08-10
 ---
 
 # Using PROAD
@@ -20,6 +20,12 @@ You do not need to describe the internal promotion, release, installation, or up
 
 If a required detail is not deterministic, the AIA should ask the smallest differentiating question before acting.
 
+## Session Start
+
+To start a PROAD session, point the AIA to [`../ai/session-bootstrap.md`](../ai/session-bootstrap.md).
+
+That file is the required session-start entry point.
+
 ## Structure Model
 
 - `proad/` is the bounded PROAD workspace inside a project or standalone PROAD release.
@@ -27,7 +33,7 @@ If a required detail is not deterministic, the AIA should ask the smallest diffe
 - Installing PROAD into a client project means copying the contents of `proad-template/` into that project's `proad/` folder.
 - PROAD may also be installed into an intentional sub-project, such as a plugin, by placing it in that sub-project's own `proad/` folder.
 - Installing or updating the standalone PROAD project means copying the contents of `proad-template/` into the standalone project root.
-- The standalone PROAD project is a separate published/versioned product and is not the same thing as the live VerQuin development workspace.
+- The standalone PROAD project is a separate published/versioned product and is not the same thing as the live host project used for ongoing PROAD development.
 - Each installed `proad/` workspace should remain scoped to the project or sub-project where it is installed.
 
 ## Current Temporary State
@@ -40,7 +46,7 @@ That file is the authoritative human-facing overview for where PROAD is currentl
 
 ### Promote reusable changes into the template
 
-Use this when the current live PROAD development in VerQuin contains a reusable improvement that should become part of the canonical template.
+Use this when the current live PROAD development in the active host project contains a reusable improvement that should become part of the canonical template.
 
 Example requests:
 

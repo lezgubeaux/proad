@@ -1,10 +1,10 @@
 ---
 id: global-working-agreements
-type: rules
+type: agreements
 status: active
 scope: repository-wide
 applies_to: aia
-updated: 2026-08-10
+updated: 2026-08-11
 ---
 
 # Global Working Agreements
@@ -26,10 +26,11 @@ Store repository-wide working agreements and limitations that apply to the AIA a
 -   GitHub repository access is available to the AIA as read-only.
 -   The AIA must not use git unless the human explicitly asks for git actions.
 -   The AIA must not browse the web, use plugins, or use external connectors unless the human explicitly asks for them.
--   These rules apply across `D:\_www\verquin.net\_www-2026\proad\`.
+-   These rules apply across the current `proad/` workspace.
 -   Unless explicitly instructed otherwise, the AIA must operate only within `proad/` and treat work outside it as out of scope.
 -   Each installed `proad/` workspace must stay scoped to the project or sub-project where it is installed and must not silently absorb sibling or parent project concerns.
 -   AIA rule documents belong under `ai/`.
+-   When a `proad/` workspace becomes the active PROAD development host, it must contain its own `proad-template/` folder.
 -   File naming should follow [`file-naming-standard.md`](./file-naming-standard.md).
 -   Note handling should follow [`notes-agreements.md`](./notes-agreements.md).
 -   Supporting material handling should follow [`supporting-material-agreements.md`](./supporting-material-agreements.md).
