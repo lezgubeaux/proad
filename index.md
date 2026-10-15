@@ -1,9 +1,9 @@
 ---
-id: proad-template-index
+id: proad-index
 type: index
 status: active
 scope: proad-template
-updated: 2026-08-02
+updated: 2026-10-03
 ---
 
 # PROAD Template
@@ -24,5 +24,6 @@ It separates human-facing project operation from AI-managed knowledge and AI ope
 -   `project/docs/` stores human-facing supporting project documents referenced from the roadmap when needed.
 -   `project/ai/` stores project-specific working agreements that apply only to the live project.
 -   `ai/` contains the AI working agreements, operating rules, and session bootstrap material.
--   `proad-template/` stores the canonical reusable starter structure for new PROAD projects.
+-   [`project/raw/`](./project/raw/index.md) preserves client-project thinking before it is mature enough to classify.
+-   `proad-template/`, when present, stores the canonical reusable starter structure produced during version promotion. It is not required in an installed workspace.
 -   [`CHANGELOG.md`](./CHANGELOG.md) is reserved for published standalone PROAD version history.

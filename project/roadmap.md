@@ -1,9 +1,10 @@
 ---
-id: proad-template-roadmap
+id: roadmap
 type: roadmap
 status: active
 scope: proad-template-project
-updated: 2026-08-03
+template-management: exclude
+updated: 2026-08-23
 ---
 
 # Project Roadmap
@@ -51,3 +52,9 @@ When no project-specific status model exists, use:
 - blocked
 - completed
 - cancelled
+
+## Steps
+
+No roadmap steps have been listed here yet.
+
+When project work begins, add concise roadmap items here and link supporting records when needed.

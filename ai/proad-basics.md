@@ -4,7 +4,7 @@ type: reference
 status: active
 scope: repository-wide
 applies_to: aia
-updated: 2026-08-02
+updated: 2026-10-03
 ---
 
 # PROAD Basics
@@ -42,12 +42,26 @@ The repository should remain:
 - `project/` is the human-facing workspace.
 - `docs/` is the AIA-managed knowledge repository.
 - `ai/` stores the working agreements and operating instructions for the AIA.
+- `project/raw/` quietly preserves client-project thinking before its proper classification is known.
+- Top-level `raw/`, when present on the active PROAD development host, preserves thinking about PROAD itself and is not installation content.
+
+## Standard Project Documents
+
+- `project/index.md` is the concise human-facing navigation entry point.
+- `project/project-overview.md` explains the active project and links to its authoritative working records.
+- `project/changelog.md` records meaningful project changes and remains distinct from the PROAD framework changelog.
+- `project/roadmap.md` shows project direction, progress, tasks, and deliveries at the appropriate level.
+- `project/resources.md` provides operational resources, environments, services, and important URLs.
+- `project/ai/project-context.md` is optional narrative context that is loaded only when deliberately supplied.
+
+These documents have distinct roles and should link rather than duplicate one another.
 
 ## Knowledge Model
 
 - Documents are organized primarily by role, not by subject.
 - Subjects should be represented through relationships rather than folder placement.
 - Metadata should remain intentionally small and only grow when it clearly improves retrieval.
+- Raw precedes this structured model: capture first, then classify only when the thought becomes relevant and mature enough.
 
 ## Retrieval Model
 

@@ -1,18 +1,27 @@
 ---
-id: proad-template-project-index
+id: project-index
 type: index
 status: active
 scope: proad-template-project
-updated: 2026-08-02
+template-management: preserve
+updated: 2026-10-03
 ---
 
-# Template Project
+# Project
 
 ## Purpose
 
-This folder stores the human-facing starter project workspace for a new PROAD project.
+This folder is the human-facing workspace for understanding and operating the active project.
 
-## Entry Points
+## Major Entry Points
 
-- [`roadmap.md`](./roadmap.md) is the mandatory starter roadmap.
-- [`supporting-material.md`](./supporting-material.md) is the mandatory starter hub for non-deliverable but important project-support material.
+- [`project-overview.md`](./project-overview.md) provides concise project orientation and authoritative navigation.
+- [`roadmap.md`](./roadmap.md) shows direction, progress, active work, and durable outcomes.
+- [`changelog.md`](./changelog.md) records meaningful project changes.
+- [`resources.md`](./resources.md) provides operational resources, services, environments, and important URLs.
+- [`docs/`](./docs/index.md) stores substantial human-facing project documents linked from the roadmap or another relevant entry point.
+- [`ai/`](./ai/index.md) presents project-specific context and agreements.
+- [`ai/project-context.md`](./ai/project-context.md) is optional narrative context that may be supplied deliberately to the AIA.
+- [`raw/`](./raw/index.md) quietly preserves project-relevant thinking before its proper classification is known.
+- [`supporting-material.md`](./supporting-material.md) provides access to important non-deliverable supporting material.
+- [`todo-list.md`](./todo-list.md) tracks operational tasks that do not belong in the roadmap.

@@ -1,10 +1,10 @@
 ---
-id: proad-template-file-naming-standard
+id: file-naming-standard
 type: standard
 status: active
 scope: proad-template-ai
 applies_to: aia
-updated: 2026-08-02
+updated: 2026-09-26
 ---
 
 # File Naming Standard
@@ -178,6 +178,22 @@ misc.md
 ```
 
 Prefer names that communicate the document's purpose.
+
+## Raw Capture Files
+
+Raw captures use a chronological date prefix followed by a short descriptive name:
+
+```text
+YYYY-MM-DD-short-descriptive-name.md
+```
+
+Example:
+
+```text
+2026-09-26-cross-device-capture.md
+```
+
+The date records capture time, not priority, roadmap order, or final classification. The remaining filename follows the ordinary lowercase, hyphenated, ASCII naming rules. See [`raw-agreements.md`](./raw-agreements.md).
 
 ## Source of Meaning
 

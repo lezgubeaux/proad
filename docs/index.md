@@ -1,9 +1,9 @@
 ---
-id: proad-template-docs-index
+id: docs-index
 type: index
 status: active
 scope: proad-template-docs
-updated: 2026-08-02
+updated: 2026-08-13
 ---
 
 # Template Docs
